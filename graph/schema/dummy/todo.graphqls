@@ -1,0 +1,19 @@
+type Todo {
+  id: ID!
+  todo: String!
+  created_date: String!
+  updated_date: String!
+  created_by: User!
+  updated_by: User!
+}
+
+input InputUpdateTodo {
+  todo: String!
+  user_id: ID!
+}
+
+input InputUpdateTodo {
+  id: ID!
+  todo: String!
+  user_id: ID!
+}

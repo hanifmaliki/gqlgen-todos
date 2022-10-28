@@ -1,0 +1,10 @@
+"""
+Things about user
+"""
+type User {
+  """
+  Things about id
+  """
+  id: ID!
+  name: String!
+}
